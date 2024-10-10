@@ -1,4 +1,8 @@
 const stringReverse = (string) => {
+    if (string === null || string === undefined) {
+        throw new Error('Input cannot be null or undefined.');
+    }
+
     if (typeof string !== 'string') {
         throw Error('Input must be a string.');
     }
