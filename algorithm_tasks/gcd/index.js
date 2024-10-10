@@ -8,8 +8,10 @@ const gcd = (a, b) => {
     return gcd(b, a % b);
 };
 
-console.log(gcd(48, 18)); 
-console.log(gcd(56, 98)); 
-console.log(gcd(101, 10)); 
-console.log(gcd(0, 5)); 
-console.log(gcd(-36, 60));
+// console.log(gcd(48, 18));
+// console.log(gcd(56, 98));
+// console.log(gcd(101, 10));
+// console.log(gcd(0, 5));
+// console.log(gcd(-36, 60));
+
+module.exports = { gcd };
